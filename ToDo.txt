@@ -1,0 +1,3 @@
+put response from API in some dataBase
+add button to card UNCRUD
+add favorite cards

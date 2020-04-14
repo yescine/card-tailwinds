@@ -25,9 +25,15 @@ const ImageCards = ({ image }) => {
         </ul>
         <div className="px-3 py-6">
           {tags.map((tag,index)=>(
-              <span key={index} className="inline-blocks bg-gray-200 rounded-full px-1 py-2 text-sm font-semibold text-gray-700 mr-3">
-              #{tag}
-            </span>
+            <div className="div editing">
+                <span key={index} className="inline-blocks bg-gray-200 rounded-full px-1 py-2 text-sm font-semibold text-gray-700 mr-3">
+                  #{tag}
+                </span>
+              <button onClick={()=>{
+                
+              }}>
+                remove</button>  
+            </div>
           ))}
         </div>
       </div>
